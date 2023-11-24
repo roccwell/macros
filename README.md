@@ -13,7 +13,7 @@ macro_rules! greet {
 }
 
 fn main() {
-    // 将展开为 println!("Hello, Rust.);
+    // 将展开为 println!("Hello, Rust.");
     greet!("Rust");
 }
 
